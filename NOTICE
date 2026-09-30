@@ -1,0 +1,10 @@
+Planning_Public_serial
+
+Licensed under the Apache License, Version 2.0.
+See LICENSE for the full terms.
+
+This repository was prepared from the ClassicalPlanner_parallel_backends
+research workspace. Algorithm and benchmark-family references are recorded
+in the documentation and benchmark manifest. Imported IPC and modern datasets
+are not part of this public distribution. Existing third-party notices, if any,
+remain applicable to their respective material.

@@ -1,0 +1,5 @@
+(define (problem hanoi-6)
+  (:domain hanoi-generated)
+  (:objects d1 d2 d3 d4 d5 d6 - disk pa pb pc - peg)
+  (:init (on d1 d2) (on d2 d3) (on d3 d4) (on d4 d5) (on d5 d6) (on d6 pa) (clear d1) (clear pb) (clear pc) (smaller d1 d2) (smaller d1 d3) (smaller d1 d4) (smaller d1 d5) (smaller d1 d6) (smaller d1 pa) (smaller d1 pb) (smaller d1 pc) (smaller d2 d3) (smaller d2 d4) (smaller d2 d5) (smaller d2 d6) (smaller d2 pa) (smaller d2 pb) (smaller d2 pc) (smaller d3 d4) (smaller d3 d5) (smaller d3 d6) (smaller d3 pa) (smaller d3 pb) (smaller d3 pc) (smaller d4 d5) (smaller d4 d6) (smaller d4 pa) (smaller d4 pb) (smaller d4 pc) (smaller d5 d6) (smaller d5 pa) (smaller d5 pb) (smaller d5 pc) (smaller d6 pa) (smaller d6 pb) (smaller d6 pc))
+  (:goal (and (on d1 d2) (on d2 d3) (on d3 d4) (on d4 d5) (on d5 d6) (on d6 pc))))

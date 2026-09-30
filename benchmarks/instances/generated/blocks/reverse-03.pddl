@@ -1,0 +1,5 @@
+(define (problem blocks-reverse-3)
+  (:domain blocks-generated)
+  (:objects b1 b2 b3 - block)
+  (:init (on b1 b2) (on b2 b3) (ontable b3) (clear b1) (handempty))
+  (:goal (and (on b2 b1) (on b3 b2) (ontable b1) (handempty))))

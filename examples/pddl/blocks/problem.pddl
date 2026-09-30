@@ -1,0 +1,11 @@
+(define (problem blocks-mini-instance)
+  (:domain blocks-mini)
+  (:objects a b - block)
+  (:init
+    (ontable a)
+    (ontable b)
+    (clear a)
+    (clear b)
+    (handempty))
+  (:goal (on a b))
+)

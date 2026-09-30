@@ -1,0 +1,5 @@
+(define (problem hanoi-prop-2)
+  (:domain hanoi-prop-2)
+  (:objects )
+  (:init (on-d1-d2) (on-d2-pa) (clear-d1) (clear-pb) (clear-pc))
+  (:goal (and (on-d1-d2) (on-d2-pc))))

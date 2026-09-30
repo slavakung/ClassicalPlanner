@@ -1,0 +1,5 @@
+(define (problem hanoi-3)
+  (:domain hanoi-generated)
+  (:objects d1 d2 d3 - disk pa pb pc - peg)
+  (:init (on d1 d2) (on d2 d3) (on d3 pa) (clear d1) (clear pb) (clear pc) (smaller d1 d2) (smaller d1 d3) (smaller d1 pa) (smaller d1 pb) (smaller d1 pc) (smaller d2 d3) (smaller d2 pa) (smaller d2 pb) (smaller d2 pc) (smaller d3 pa) (smaller d3 pb) (smaller d3 pc))
+  (:goal (and (on d1 d2) (on d2 d3) (on d3 pc))))
