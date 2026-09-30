@@ -1,0 +1,8 @@
+(define (domain sliding-generated)
+  (:requirements :strips :typing)
+  (:types tile cell)
+  (:predicates (at ?t - tile ?c - cell) (blank ?c - cell)
+    (adjacent ?a - cell ?b - cell))
+  (:action slide :parameters (?t - tile ?from - cell ?to - cell)
+    :precondition (and (at ?t ?from) (blank ?to) (adjacent ?from ?to))
+    :effect (and (at ?t ?to) (blank ?from) (not (at ?t ?from)) (not (blank ?to)))))

@@ -1,0 +1,5 @@
+(define (problem sliding-prop-31)
+  (:domain sliding-prop)
+  (:objects )
+  (:init (at-t6-c0) (at-t4-c1) (at-t7-c2) (at-t8-c3) (at-t5-c4) (blank-c5) (at-t3-c6) (at-t2-c7) (at-t1-c8))
+  (:goal (and (at-t1-c0) (at-t2-c1) (at-t3-c2) (at-t4-c3) (at-t5-c4) (at-t6-c5) (at-t7-c6) (at-t8-c7) (blank-c8))))

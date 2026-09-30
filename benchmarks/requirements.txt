@@ -1,0 +1,3 @@
+# Python 3.9 or newer. Figures do not require pandas or a display server.
+matplotlib>=3.6,<4
+numpy>=1.23,<3

@@ -1,0 +1,5 @@
+(define (problem gripper-4)
+  (:domain gripper-generated)
+  (:objects ra rb - room left right - gripper b1 b2 b3 b4 - ball)
+  (:init (robot-at ra) (free left) (free right) (connected ra rb) (connected rb ra) (at b1 ra) (at b2 ra) (at b3 ra) (at b4 ra))
+  (:goal (and (at b1 rb) (at b2 rb) (at b3 rb) (at b4 rb))))

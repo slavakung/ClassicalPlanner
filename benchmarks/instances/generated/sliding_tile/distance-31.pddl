@@ -1,0 +1,5 @@
+(define (problem sliding-31)
+  (:domain sliding-generated)
+  (:objects t1 t2 t3 t4 t5 t6 t7 t8 - tile c0 c1 c2 c3 c4 c5 c6 c7 c8 - cell)
+  (:init (at t6 c0) (at t4 c1) (at t7 c2) (at t8 c3) (at t5 c4) (blank c5) (at t3 c6) (at t2 c7) (at t1 c8) (adjacent c0 c1) (adjacent c0 c3) (adjacent c1 c0) (adjacent c1 c2) (adjacent c1 c4) (adjacent c2 c1) (adjacent c2 c5) (adjacent c3 c0) (adjacent c3 c4) (adjacent c3 c6) (adjacent c4 c1) (adjacent c4 c3) (adjacent c4 c5) (adjacent c4 c7) (adjacent c5 c2) (adjacent c5 c4) (adjacent c5 c8) (adjacent c6 c3) (adjacent c6 c7) (adjacent c7 c4) (adjacent c7 c6) (adjacent c7 c8) (adjacent c8 c5) (adjacent c8 c7))
+  (:goal (and (at t1 c0) (at t2 c1) (at t3 c2) (at t4 c3) (at t5 c4) (at t6 c5) (at t7 c6) (at t8 c7) (blank c8))))

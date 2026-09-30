@@ -1,0 +1,5 @@
+(define (problem logistics-1)
+  (:domain logistics-generated)
+  (:objects da db - depot aa ab - airport ta tb - truck plane - airplane p1 - package)
+  (:init (truck-at ta da) (truck-at tb db) (plane-at plane aa) (road da aa) (road aa da) (road db ab) (road ab db) (flight aa ab) (flight ab aa) (package-at p1 da))
+  (:goal (and (package-at p1 db))))

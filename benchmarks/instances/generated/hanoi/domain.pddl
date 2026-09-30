@@ -1,0 +1,8 @@
+(define (domain hanoi-generated)
+  (:requirements :strips :typing)
+  (:types support - object disk peg - support)
+  (:predicates (on ?d - disk ?s - support) (clear ?s - support)
+    (smaller ?d - disk ?s - support))
+  (:action move :parameters (?d - disk ?from - support ?to - support)
+    :precondition (and (on ?d ?from) (clear ?d) (clear ?to) (smaller ?d ?to))
+    :effect (and (on ?d ?to) (clear ?from) (not (on ?d ?from)) (not (clear ?to)))))
